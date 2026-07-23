@@ -1,19 +1,52 @@
 aid: avo
 name: AVO
-description: AVO is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Avo (avonow.com) was a New York City-based "building commerce" and workplace-amenity
+  platform, founded 2017-2018 out of Y Combinator (S18) and backed by Insight Partners and
+  Kleiner Perkins with roughly $84M raised. It offered white-labeled same-day delivery of
+  groceries, household goods, alcohol and personal-care items into residential and office
+  buildings with no order minimums or delivery fees, plus on-site and virtual event
+  programming and corporate gifting and recognition services, serving apartment communities,
+  corporations, hospitals and universities across New York, New Jersey, Chicago and Houston.
+  Avo published no API, SDK or developer portal, and as of a 2026-07-20 probe its domain
+  resolves to a parked lander with no operational hosts; Y Combinator lists the company as
+  inactive.'
 url: https://raw.githubusercontent.com/api-evangelist/avo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
+x-status: inactive
+x-status-evidence: 'www.avonow.com serves a GoDaddy parking lander on every path (soft-404
+  verified against a control path, probed 2026-07-20); no operational subdomains resolve;
+  Y Combinator lists the company as inactive.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Delivery
+- Logistics
+- Last Mile Delivery
+- Grocery
+- E-Commerce
+- Real Estate
+- Workplace
+- Amenities
+- Corporate Gifting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.avonow.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/avonow
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/avo-9a0c
+- type: DomainSecurity
+  url: security/avo-domain-security.yml
+- type: LLMsTxt
+  url: llms/avo-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

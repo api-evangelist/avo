@@ -1,0 +1,38 @@
+# AVO
+
+> Avo (avonow.com) was a New York City–based "building commerce" and workplace-amenity
+> platform, founded 2017–2018 out of Y Combinator (S18) and backed by Insight Partners,
+> Kleiner Perkins and others with roughly $84M–$100M raised. It offered white-labeled
+> same-day delivery of groceries, household goods, alcohol and personal-care items into
+> residential and office buildings with no order minimums or delivery fees, alongside
+> on-site and virtual event programming and corporate gifting/recognition services, serving
+> apartment communities, corporations, hospitals and universities across New York, New
+> Jersey, Chicago and Houston.
+
+## Status
+
+AVO publishes no API, no developer portal and no public developer documentation. As of a
+2026-07-20 probe, www.avonow.com resolves to a GoDaddy parking lander — every requested
+path, including a control path that does not exist, returns an identical 114-byte HTML
+redirect to /lander. No operational subdomains (oms, app, shop, admin, backend, static)
+resolve. Y Combinator lists the company as inactive. This profile is retained as a network
+identity record and negative-result probe log, not as an API listing.
+
+## Profile
+
+- [API Evangelist profile (APIs.json)](https://raw.githubusercontent.com/api-evangelist/avo/refs/heads/main/apis.yml): Machine-readable company profile for AVO
+- [Website](https://www.avonow.com/): Company domain, currently a parked lander
+- [Insight Partners portfolio entry](https://www.insightpartners.com/portfolio/avo/): Investor portfolio listing
+- [Y Combinator company page](https://www.ycombinator.com/companies/avo-2): YC S18 batch listing, marked inactive
+- [LinkedIn](https://www.linkedin.com/company/avonow): Company page
+
+## Artifacts
+
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/avo/refs/heads/main/security/avo-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture for avonow.com
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/avo/refs/heads/main/well-known/avo-well-known.yml): Negative-result log for the /.well-known/ discovery surface
+
+## Not available
+
+No OpenAPI, AsyncAPI, GraphQL or gRPC definitions; no SDKs or packages; no CLI; no MCP
+server; no sandbox, changelog, status page, error catalog, OAuth scopes, trust center or
+vulnerability-disclosure program were found for this provider.

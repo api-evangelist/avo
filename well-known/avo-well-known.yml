@@ -1,0 +1,36 @@
+generated: '2026-07-20'
+method: probed
+source: live HTTPS probes of https://www.avonow.com/.well-known/*
+host: https://www.avonow.com
+notes: >-
+  Every probed path returns HTTP 200 with an identical 114-byte HTML body that
+  JavaScript-redirects to /lander (a GoDaddy parking page, md5
+  e89f75f918dbdcee28604d4e09dd71d7). A control request to a random nonexistent
+  path returns the same body, confirming the host answers every request with a
+  soft-404 parking response. No real well-known documents are published, so no
+  raw files were saved and no WellKnown or SecurityTxt pointer was wired.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  soft_404: true
+  present: false
+- path: /.well-known/openid-configuration
+  status: 200
+  soft_404: true
+  present: false
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  soft_404: true
+  present: false
+- path: /.well-known/api-catalog
+  status: 200
+  soft_404: true
+  present: false
+- path: /.well-known/ai-plugin.json
+  status: 200
+  soft_404: true
+  present: false
+control:
+  path: /this-path-does-not-exist-xyz123
+  status: 200
+  body_md5: e89f75f918dbdcee28604d4e09dd71d7
