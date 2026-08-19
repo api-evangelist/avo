@@ -33,7 +33,7 @@ x-status: inactive
 x-status-evidence: 'www.avonow.com serves a GoDaddy parking lander on every path (soft-404
   verified against a control path, probed 2026-07-20); no operational subdomains resolve;
   Y Combinator lists the company as inactive.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
