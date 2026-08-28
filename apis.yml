@@ -11,6 +11,17 @@ description: 'Avo (avonow.com) was a New York City-based "building commerce" and
   resolves to a parked lander with no operational hosts; Y Combinator lists the company as
   inactive.'
 url: https://raw.githubusercontent.com/api-evangelist/avo/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
