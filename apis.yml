@@ -54,7 +54,7 @@ tags:
 - Last Mile Delivery
 - Grocery
 - E-Commerce
-- Real-Estate
+- Real Estate
 - Workplace
 - amenities
 - Corporate Gifting
@@ -69,6 +69,7 @@ tags_raw:
 - Workplace
 - Amenities
 - Corporate Gifting
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
